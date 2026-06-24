@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.x_creations.qrandbarcode_generatorandscanner.ui.dashboard.DashboardFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_title"
+        android:text="Result"
+        android:layout_marginTop="50dp"
+        android:textSize="25dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_result"
+        android:textSize="20dp"
+        android:layout_below="@id/txt_title"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/copy_txt"
+        android:text="Copy"
+        android:layout_below="@id/txt_result"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/open_txt"
+        android:text="Open Link"
+        android:layout_below="@id/txt_result"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="100dp"
+        android:textSize="15dp" />
+
+    <com.journeyapps.barcodescanner.DecoratedBarcodeView
+        android:id="@+id/scanner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@android:id/navigationBarBackground"
+        />
+
+</RelativeLayout>

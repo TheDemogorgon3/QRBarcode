@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.x_creations.qrandbarcode_generatorandscanner.ui.home.HomeFragment">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:id="@+id/edt_txt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="15dp"
+        android:hint="Enter Text To Generate Codes"
+        android:inputType="text"
+        android:singleLine="true"
+        android:digits="0,1,2,3,4,5,6,7,8,9,*,@,#,/,:,;,!,?,(,),+,~,$,^,=,%,.,{,},[,],\\, ,qwertzuiopasdfghjklyxcvbnm,QWERTZUIOPASDFGHJKLYXCVBNM,_,-"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_txt"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/warning"
+        android:text="Text must be 1 - 80 characters"
+        android:textColor="@color/red"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/qr_code"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/edt_txt"
+        android:layout_marginTop="50dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/copy_qr"
+        android:text="Share QR Code As Image"
+        android:layout_below="@id/qr_code"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bar_code"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/qr_code"
+        android:layout_marginTop="100dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/copy_bar"
+        android:text="Share Barcode As Image"
+        android:layout_below="@id/bar_code"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp" />
+
+</RelativeLayout>

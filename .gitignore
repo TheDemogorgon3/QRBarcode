@@ -1,0 +1,44 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Built artifacts and binaries
+**/build/
+*.apk
+*.aab
+*.dex
+*.class
+
+# IDE specific files (Android Studio / IntelliJ)
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+*.iml
+
+# Local configuration and private keys
+local.properties
+signing.properties
+*.jks
+*.keystore
+*.pepk
+*.pem
+*.pk8
+
+# Log files and crash dumps
+*.log
+/captures/
+.gradle/
