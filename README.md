@@ -39,12 +39,6 @@ Built using the Android Navigation Component for the two-fragment tab layout. QR
 
 ---
 
-## Screenshots
-
-*Add screenshots here showing the generator tab, scanner tab, and a decoded result.*
-
----
-
 ## Installation
 
 Available on the [Google Play Store](https://play.google.com/store/apps/details?id=com.x_creations.qrandbarcode_generatorandscanner). Requires Android 5.0 (Lollipop) or higher.
