@@ -51,6 +51,6 @@ Available on the [Google Play Store](https://play.google.com/store/apps/details?
 
 To build from source:
 ```bash
-git clone https://github.com/thedemogorgon3/qr-barcode-generator-scanner
+git clone https://github.com/thedemogorgon3/qrbarcode
 ```
 Open in Android Studio and run on a device or emulator.
